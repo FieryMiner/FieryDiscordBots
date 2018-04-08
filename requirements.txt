@@ -1,1 +1,5 @@
- pip install discord.py[voice]
+discord
+asyncio
+Pymoe
+requests
+simplejson
