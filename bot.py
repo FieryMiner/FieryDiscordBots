@@ -1,10 +1,28 @@
 #nerd
 
 import discord
+import discord.ext
 from discord.ext import commands
 from discord.ext.commands import Bot
 import asyncio
-from discord.voice_client import VoiceClient
+import Pymoe
+import simplejson as json
+import requests as rq
+from champs import champs
+import os
+import image_links
+
+
+
+
+
+api = os.environ['RIOT_KEY']
+wu_key='c8034bd5f8c70795'
+
+
+
+An=Pymoe.Anilist()
+
 
 startup_extensions = ('Music')
 bot = commands.Bot(command_prefix='*')
