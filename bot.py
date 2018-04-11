@@ -73,5 +73,5 @@ if __name__== '__main__':
 
     
 
-bot.run(os.environ['BOT_TOKEN'])
+bot.run('BOT_TOKEN')
      
