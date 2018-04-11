@@ -1,5 +1,4 @@
-discord
-asyncio
-Pymoe
-requests
-simplejson
+discord.py==0.14.3
+aiohttp
+websockets
+chardet
